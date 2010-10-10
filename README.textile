@@ -1,3 +1,48 @@
+
+h1. The AS3CoreLib Sprout Gem
+
+h4. requires sprout, v >= 1.0.26.pre
+
+	AS3Corelib ActionScript 3 source wrapped in a Sprout::Specification for implementation into a sprout project and Gem::Specification for distribution as a gem.
+	
+	This sprout gem includes the AS3Corelib source code matching version zip from GoogleCode and the source code will be copied to lib/papervision3d of your sprout project.
+	
+h3. Installation
+
+Intended for use with a project using Project Sprouts. 
+
+See information concerning Project Sprouts here: 
+* "http://github.com/lukebayes/project-sprouts" http://github.com/lukebayes/project-sprouts
+* "http://github.com/lukebayes/sprout-flashsdk" http://github.com/lukebayes/sprout-flashsdk
+
+Add the AS3Corelib gem to your Gemfile:
+
+	<pre><code>gem "as3corelib"</code></pre>
+
+Add the Papervision3D library dependency to your Rakefile:
+
+	<pre><code>library :as3corelib</code></pre>
+
+Enter this shell command to resolve gem dependency: 
+
+	<pre><code>bundle install</code></pre>
+
+h3. Ruby Gem
+
+The gem can be installed independently of a project entering this command:
+
+<pre><code>gem install as3corelib</code></pre>
+
+h3. Additional links
+
+* "AS3CoreLib on GitHub":http://github.com/mikechambers/as3corelib
+* "Sprouts Site":http://projectsprouts.org
+* "Sprouts on Github":http://github.com/lukebayes/project-sprouts
+* "flashsdk sprout on Github":http://github.com/lukebayes/sprout-flashsdk
+* "Sprouts Community":http://groups.google.com/group/projectsprouts
+
+h3. AS3CoreLib README
+
 An ActionScript 3 Library that contains a number of classes and utilities for working with ActionScript? 3. These include classes for MD5 and SHA 1 hashing, Image encoders, and JSON serialization as well as general String, Number and Date APIs.
 
 Code is released under a BSD License:
