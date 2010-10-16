@@ -21,3 +21,12 @@ bin-debug/*
 *.class
 
 pkg/*
+*.gem
+.bundle
+*.tmproj
+vendor/*
+
+Thumbs.db
+.DS_Store
+
+Gemfile.lock
