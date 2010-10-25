@@ -15,7 +15,7 @@ See information concerning Project Sprouts here:
 
 Add the AS3Corelib gem to your Gemfile:
 
-	<pre><code>gem "as3corelib", "0.92.1"		# Swap the version number with whichever desired version.</code></pre>
+	<pre><code>gem "as3corelib", "0.93.0"		# Swap the version number with whichever desired version.</code></pre>
 
 Add the library dependency to your Rakefile:
 

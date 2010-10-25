@@ -26,8 +26,8 @@ namespace :gem do
     system "gem install pkg/#{filename}"
   end
 
-  desc "Build and release #{filename}.gem to rubygems.org"
-  task :release => :build do
+  desc "Build and push #{filename}.gem to rubygems.org"
+  task :push => :build do
     system "gem push pkg/#{filename}.gem"
   end
 end
