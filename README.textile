@@ -5,6 +5,8 @@ h1. The AS3CoreLib Sprout Gem
 	
 	This sprout gem will download the as3corelib zip and make the included assets available to your flashsdk/sprout project. Assets are made available in the lib/as3corelib directory.
 	
+	The version of this gem corresponds directly to the version of as3corelib as can be found on "the original project":http://github.com/mikechambers/as3corelib. There are multiple versions of as3corelib available as sprout gems, see the tags list associated with the sprout-as3corelib project.
+	
 h3. Installation
 
 See information concerning Project Sprouts here: 
@@ -13,7 +15,7 @@ See information concerning Project Sprouts here:
 
 Add the AS3Corelib gem to your Gemfile:
 
-	<pre><code>gem "as3corelib"</code></pre>
+	<pre><code>gem "as3corelib", "0.92.1"		# Swap the version number with whichever desired version.</code></pre>
 
 Add the library dependency to your Rakefile:
 
@@ -27,7 +29,7 @@ h3. Ruby Gem
 
 The gem can be installed independently of a project entering this command:
 
-	<pre><code>$ gem install as3corelib --pre</code></pre>
+	<pre><code>$ gem install as3corelib</code></pre>
 	
 h3. Available assets
 
